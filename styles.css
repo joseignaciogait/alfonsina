@@ -1,19 +1,32 @@
-
-
-nav {
+li {
     display: inline-flex;
     align-items: center;
-    justify-content: end;
-    width: 100%;
-    gap: 30px;
+    margin:10px;
+    list-style: none;
     }
-
-.boton{
-    text-align: center;
+ul{
+    list-style: none;
 }
+a {
+    text-decoration: none;
+    list-style: none;
+    }
 
 footer{
 text-align: center;
 margin: 20px;
 padding: 30px;
+}
+
+body {
+    background-color: #D6CCC2;
+}
+
+h1{
+    display: none;
+}
+
+.logo-alfonsina{
+    width: 150px;
+    height:150px;
 }
